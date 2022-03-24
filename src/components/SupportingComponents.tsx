@@ -14,7 +14,7 @@ export const WeatherIcon = (props: any) => {
   return (
     <Grid item xs={2} textAlign="left">
       <img
-        alt="weather"
+        alt="weather-icon"
         src={" http://openweathermap.org/img/wn/" + props.icon + ".png"}
       />
     </Grid>

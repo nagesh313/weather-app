@@ -1,8 +1,8 @@
 import React from "react";
-import { SearchLocation } from "./Home";
+import { Home } from "./Home";
 
 function App() {
-  return <SearchLocation></SearchLocation>;
+  return <Home></Home>;
 }
 
 export default App;

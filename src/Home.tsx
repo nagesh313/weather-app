@@ -5,12 +5,11 @@ import { ForecastResult } from "./components/ForecastResult";
 import { SearchForm } from "./components/SearchForm";
 import { SearchResult } from "./components/SearchResult";
 
-export const SearchLocation = () => {
+export const Home = () => {
   const [searchResult, setSearchResult] = React.useState<any>();
   const [forecastData, setForecastData] = React.useState<any>();
 
-  React.useEffect(() => {
-  }, []);
+  React.useEffect(() => {}, []);
   return (
     <Container component="main" maxWidth="sm" className="home-container">
       <CssBaseline />
